@@ -1,7 +1,13 @@
-package exercices;
+package cocaCola;
 import java.util.Scanner;
 
 public class CocaColaMachine {
+    public static void main(String[] args) {
+        CocaColaMachine.start();
+    }
+
+    private static int wallet;
+
     private static final String[] PRODUCT_LIST = {
             "Coca-Cola 250ml",
             "Coca-Cola 350ml",
@@ -19,13 +25,22 @@ public class CocaColaMachine {
 
 //    SCRIPT INIT
     public static void start(){
+        wallet = 0;
         System.out.println("------------------------------------------");
         System.out.println("COCA COLA MACHINE");
         printItems();
         System.out.println("------------------------------------------");
+        System.out.print("How many cents do you have? ");
+        wallet = getWallet();
+        System.out.println("------------------------------------------");
         System.out.print("YOUR ORDER: ");
         int order = getOrder();
         paymentManager(order);
+    }
+
+    private static int getWallet(){
+        Scanner scan = new Scanner(System.in);
+        return scan.nextInt();
     }
 
 
@@ -72,29 +87,39 @@ public class CocaColaMachine {
         int productPrice = PRODUCT_PRICES[orderID-1];
         int devolution = 0;
 
-        System.out.println("------------------------------------------");
-        System.out.printf(
-                "PRODUCT: %s\nPRICE: %d cents\n", PRODUCT_LIST[orderID-1], productPrice
-        );
-        System.out.println("------------------------------------------");
+        boolean haveMoney = true;
 
-        int insertedCoins = 0;
-        System.out.println("INSERT COINS!\n");
-        do {
-            System.out.println("INSERTED COINS: " + insertedCoins);
-            printCoins();
-            System.out.print("> ");
-            insertedCoins += getCoin();
-        } while(insertedCoins < productPrice);
-
-        System.out.println("INSERTED COINS: " + insertedCoins);
-        System.out.println("------------------------------------------");
-
-        if(insertedCoins > productPrice) {
-            devolution = insertedCoins - productPrice;
-
-            System.out.println("DEVOLUTION: " + devolution + " cents");
+        if(wallet < productPrice) {
+            System.out.println("YOU DON'T HAVE ENOUGH COINS.");
+            haveMoney = false;
         }
+
+        if(haveMoney) {
+            System.out.println("------------------------------------------");
+            System.out.printf(
+                    "PRODUCT: %s\nPRICE: %d cents\n", PRODUCT_LIST[orderID-1], productPrice
+            );
+            System.out.println("------------------------------------------");
+
+            int insertedCoins = 0;
+            System.out.println("INSERT COINS!\n");
+            do {
+                System.out.println("INSERTED COINS: " + insertedCoins);
+                printCoins();
+                System.out.print("> ");
+                insertedCoins += getCoin();
+            } while(insertedCoins < productPrice);
+
+            System.out.println("INSERTED COINS: " + insertedCoins);
+            System.out.println("------------------------------------------");
+
+            if(insertedCoins > productPrice) {
+                devolution = insertedCoins - productPrice;
+
+                System.out.println("DEVOLUTION: " + devolution + " cents");
+            }
+        }
+
         System.out.println("GOOD BYE!");
         System.out.println("------------------------------------------");
     }
