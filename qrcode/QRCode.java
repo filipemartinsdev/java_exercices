@@ -1,24 +1,13 @@
+package qrcode;
 import java.lang.Math;
-import java.util.Map;
-import java.util.HashMap;
 
 public class QRCode {
-    private static final Map<Integer, Integer> sizePerId;
-
-    static {
-        sizePerId = new HashMap<>();
-
-        int countKey = 1;
-        int countValue = 21;
-        while(countKey <= 40){
-            QRCode.sizePerId.put(countKey, countValue);
-            countKey++;
-            countValue+=4;
-        }
+    public static int getSizePerId(int sizeID){
+        return 21 + 4*(sizeID -1);
     }
 
-    private int size;
-    private boolean[][] map;
+    private final int size;
+    private final boolean[][] map;
 
     public QRCode(int size){
         if(size>40) size=40;
@@ -222,9 +211,5 @@ public class QRCode {
             }
             System.out.println();
         }
-    }
-
-    public static int getSizePerId(int size){
-        return QRCode.sizePerId.get(size);
     }
 }
