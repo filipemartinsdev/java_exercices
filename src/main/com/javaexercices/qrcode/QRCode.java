@@ -1,4 +1,4 @@
-package qrcode;
+package src.main.com.javaexercices.qrcode;
 import java.lang.Math;
 
 public class QRCode {

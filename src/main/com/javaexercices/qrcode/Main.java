@@ -1,4 +1,4 @@
-package qrcode;
+package src.main.com.javaexercices.qrcode;
 
 public class Main {
     public static void main(String[] args) {
