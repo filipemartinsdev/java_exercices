@@ -1,3 +1,5 @@
+package src.main.com.javaexercices.sales;
+
 import java.util.HashMap;
 import java.util.Map;
 

@@ -1,6 +1,8 @@
+package src.main.com.javaexercices.horseRide;
+
 import java.util.ArrayList;
 import java.util.Arrays;
-import util.Scan;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String...args){
@@ -57,6 +59,7 @@ public class Main {
 
         public void displayMoves(ArrayList<Integer> possibleMovesList){
             System.out.print("\nCHANGE MOVE:\n");
+            Scanner scan = new Scanner(System.in);
 
             int i = 1;
             int listSize = possibleMovesList.size();
@@ -74,7 +77,7 @@ public class Main {
             }
             System.out.print("]\n");
 
-            int change = Scan.nextInt();
+            int change = scan.nextInt();
             if(!(possibleMovesList.contains(change))) {
                 System.out.println("ILEGAL MOVEMENT!");
                 System.out.println("---------------------------------");

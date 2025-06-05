@@ -4,7 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13f362b2-709b-4c8c-9140-3f95f21b6a30" name="Changes" comment="" />
+    <list default="true" id="13f362b2-709b-4c8c-9140-3f95f21b6a30" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/diceGame/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/diceGame/.idea/DiceGamee.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/diceGame/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/diceGame/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/diceGame/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/javaexercices/diceGame/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/diceGame/out/production/DiceGamee/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/diceGame/out/production/DiceGamee/.idea/DiceGamee.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/diceGame/out/production/DiceGamee/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/diceGame/out/production/DiceGamee/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/diceGame/out/production/DiceGamee/Main$Dice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/diceGame/out/production/DiceGamee/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/diceGame/out/production/DiceGamee/test/Rand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/diceGame/test/Rand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/enterprise/Enterprise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/javaexercices/enterprise/Enterprise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/horseRide/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/javaexercices/horseRide/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/horseRide/util/Scan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/javaexercices/horseRide/util/Scan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/qrcode/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/qrcode/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/qrcode/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/qrcode/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/sales/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/sales/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/sales/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/sales/.idea/sales.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/sales/Loja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/javaexercices/sales/Loja.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/sales/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/javaexercices/sales/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/sales/out/production/sales/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/sales/out/production/sales/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/sales/out/production/sales/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/sales/out/production/sales/.idea/sales.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/sales/out/production/sales/Loja$Produto$ProdutoAlimento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/sales/out/production/sales/Loja$Produto$ProdutoEletronico.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/sales/out/production/sales/Loja$Produto$ProdutoFrios.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/sales/out/production/sales/Loja$Produto$ProdutoRoupa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/sales/out/production/sales/Loja$Produto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/sales/out/production/sales/Loja$Venda.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/sales/out/production/sales/Loja.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/sales/out/production/sales/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/sales/out/production/sales/main.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

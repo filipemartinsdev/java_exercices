@@ -1,4 +1,5 @@
-package Exercices;
+package src.main.com.javaexercices.enterprise;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 

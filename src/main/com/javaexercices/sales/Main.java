@@ -1,3 +1,5 @@
+package src.main.com.javaexercices.sales;
+
 public class Main {
     public static void main(String[] args) {
         Loja.Produto ps5 = new Loja.Produto.ProdutoEletronico("play station 5", 4500F);
