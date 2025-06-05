@@ -1,3 +1,5 @@
+package src.main.com.javaexercices.horseRide;
+
 public class Horse {
     public static void main(String...args){
 //        for(int[] i:moveList){
