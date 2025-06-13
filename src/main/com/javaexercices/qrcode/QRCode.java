@@ -1,5 +1,10 @@
-package src.main.com.javaexercices.qrcode;
+package main.com.javaexercices.qrcode;
+
+import java.io.IOException;
 import java.lang.Math;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.FileReader;
 
 public class QRCode {
     public static int getSizePerId(int sizeID){
@@ -210,6 +215,27 @@ public class QRCode {
                 System.out.print(j ? "[#]" : "   ");
             }
             System.out.println();
+        }
+    }
+
+    public void createFile(){
+        try {
+            File file = new File("./qrcode.txt");
+            FileWriter writer = new FileWriter(file);
+            int i = 0;
+            int j;
+            while(i < this.map.length){
+                j=0;
+                while(j<this.map[i].length){
+                    writer.write(this.map[i][j] ? '1' : '0');
+                    j++;
+                }
+                writer.write(",\n");
+                i++;
+            }
+            writer.flush();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
         }
     }
 }
