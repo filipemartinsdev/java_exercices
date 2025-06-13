@@ -3,3 +3,5 @@
 *.py
 *.iml
 ./.idea
+*.txt
+*.pbm

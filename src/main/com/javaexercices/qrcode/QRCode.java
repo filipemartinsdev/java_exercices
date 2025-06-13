@@ -209,6 +209,10 @@ public class QRCode {
         this.map[this.size-6][this.size-6]= true;
     }
 
+    public int getSize(){
+        return this.size;
+    }
+
     public void printThis(){
         for(boolean[]i:this.map){
             for(boolean j:i){
@@ -233,6 +237,40 @@ public class QRCode {
                 writer.write(",\n");
                 i++;
             }
+            writer.flush();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void createPBM(){
+        try {
+            File file = new File("./qrcode2.pbm");
+            FileWriter writer = new FileWriter(file);
+
+            int sizeFull = this.getSize()*25;
+
+            writer.write("P1\n");
+            writer.write(sizeFull+" "+sizeFull+"\n");
+
+            int countI;
+            int countJ;
+            for(boolean[] i : this.map){
+                countI=0;
+                while(countI<25){
+                    for(boolean j : i){
+                        countJ = 0;
+                        while(countJ < 25) {
+                            writer.write(j ? '0' : '1');
+                            writer.write(" ");
+                            countJ++;
+                        }
+                    }
+                    writer.write("\n");
+                    countI++;
+                }
+            }
+
             writer.flush();
         } catch (IOException e) {
             throw new RuntimeException(e);
