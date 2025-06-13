@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13f362b2-709b-4c8c-9140-3f95f21b6a30" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/qrcode/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/javaexercices/qrcode/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/qrcode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/javaexercices/qrcode/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/qrcode/QRCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/javaexercices/qrcode/QRCode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/qrcode/QRCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/javaexercices/qrcode/QRCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qrcode.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +28,7 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -49,6 +45,19 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\fma00\dev\personal\projects\java\exercices\cocaCola" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="java_exercices" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="java_exercices" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
