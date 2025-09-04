@@ -1,4 +1,4 @@
-package src.main.com.javaexercices.enterprise;
+package main.com.javaexercices.enterprise;
 
 import java.util.ArrayList;
 import java.util.Arrays;

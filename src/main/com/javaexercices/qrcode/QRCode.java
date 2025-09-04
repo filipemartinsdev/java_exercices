@@ -245,6 +245,7 @@ public class QRCode {
 
     public void createPBM(){
         try {
+            System.out.println("Generating image...");
             File file = new File("./qrcode2.pbm");
             FileWriter writer = new FileWriter(file);
 
@@ -261,7 +262,7 @@ public class QRCode {
                     for(boolean j : i){
                         countJ = 0;
                         while(countJ < 25) {
-                            writer.write(j ? '0' : '1');
+                            writer.write(j ? '1' : '0');
                             writer.write(" ");
                             countJ++;
                         }
@@ -275,5 +276,6 @@ public class QRCode {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+        System.out.println("Generate finish.");
     }
 }
