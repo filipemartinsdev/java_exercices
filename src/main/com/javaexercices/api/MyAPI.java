@@ -1,11 +1,13 @@
 package main.com.javaexercices.api;
 
 
+import javax.crypto.spec.IvParameterSpec;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -17,6 +19,8 @@ public class MyAPI {
             new User(2, "Igor", "igor@hotmail.com"),
             new User(3, "victor", "hugo@yahoo.com")
     );
+
+    static List<String>vipList = new ArrayList<>();
 
 
     public static void run() throws IOException {
@@ -64,33 +68,48 @@ public class MyAPI {
 
 
     private static String routeRequest(String method, String path){
-        if(!"GET".equals(method)){
-            return "{\"error\": method not supported}";
-        }
 
-        if("/users/".equals(path)){
-            return getUserList();
-        }
-
-        if(path.startsWith("/users/")){
-            String subStr = path.substring("/users/".length());
-
-            int userId;
-
-            try {
-                userId = Integer.parseInt(subStr);
-            } catch (NumberFormatException e) {
-                return "{\"error\": \"user not found\"}";
-            }
-            User user = getUser(userId);
-            if (user == null){
-                return "{\"error\": user not found}";
+        if("GET".equals(method)){
+            if("/users/".equals(path)){
+                return getUserList();
             }
 
-            return user.toJson();
+            if(path.startsWith("/users/")){
+                String subStr = path.substring("/users/".length());
+
+                int userId;
+
+                try {
+                    userId = Integer.parseInt(subStr);
+                } catch (NumberFormatException e) {
+                    return "{\"error\": \"user not found\"}";
+                }
+                User user = getUser(userId);
+                if (user == null){
+                    return "{\"error\": \"user not found\"}";
+                }
+
+                return user.toJson();
+            }
+
+            if("/viplist/".equals(path)){
+                return getVipListJson();
+            }
         }
 
-        return "{\"error\":\"path not supported\"}";
+        else if("POST".equals(method)){
+            if(path.startsWith("/viplist/")){
+                String name = path.substring("/viplist/".length());
+                vipList.add(name);
+
+                return "{\"status\":\"200\"}";
+            }
+            else {
+                return "{\"error\":\"path not found\"}";
+            }
+        }
+
+        return "{\"error\": \"method not supported\"}";
     }
 
     static User getUser(int id){
@@ -101,6 +120,15 @@ public class MyAPI {
         }
 
         return null;
+    }
+
+    static String getVipListJson(){
+        StringBuilder response = new StringBuilder();
+        response.append("{");
+        for (String user:vipList){
+            response.append("\"").append(user).append("\", ");
+        }
+        return response.append("}").toString();
     }
 
     static String getUserList(){
