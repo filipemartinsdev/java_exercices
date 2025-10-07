@@ -1,4 +1,4 @@
-package main.com.javaexercices.qrcode;
+package qrcode;
 
 import java.io.IOException;
 import java.lang.Math;

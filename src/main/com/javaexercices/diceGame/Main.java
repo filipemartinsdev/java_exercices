@@ -1,4 +1,4 @@
-package main.com.javaexercices.diceGame;
+package diceGame;
 import java.util.Arrays;
 import java.util.Scanner;
 

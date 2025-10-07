@@ -1,4 +1,4 @@
-package src.main.com.javaexercices.sales;
+package sales;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -13,7 +13,7 @@ public class Loja {
     private static float totalGanhoEmVendas;
 
     public static void printAnalize(){
-        System.out.println("++=====================++");
+        System.out.println("++======================++");
         System.out.println("||  ANALIZE DE VENDAS  ||");
         System.out.println("++=====================++");
 

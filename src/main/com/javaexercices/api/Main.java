@@ -1,4 +1,4 @@
-package main.com.javaexercices.api;
+package api;
 
 import java.io.IOException;
 

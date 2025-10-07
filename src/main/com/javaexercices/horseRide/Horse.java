@@ -1,4 +1,4 @@
-package main.com.javaexercices.horseRide;
+package horseRide;
 
 public class Horse {
     public static void main(String...args){

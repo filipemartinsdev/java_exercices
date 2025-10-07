@@ -1,4 +1,4 @@
-package src.main.com.javaexercices.horseRide.util;
+package horseRide.util;
 
 import com.sun.source.util.SourcePositions;
 

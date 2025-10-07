@@ -1,4 +1,4 @@
-package main.com.javaexercices.cocaCola;
+package cocaCola;
 import java.util.Scanner;
 
 public class CocaColaMachine {

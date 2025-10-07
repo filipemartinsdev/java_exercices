@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13f362b2-709b-4c8c-9140-3f95f21b6a30" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/com/javaexercices/api/Email.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/api/MyAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/javaexercices/api/MyAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/api/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/javaexercices/api/Email.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +22,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6

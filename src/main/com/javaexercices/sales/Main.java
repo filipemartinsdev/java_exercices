@@ -1,4 +1,4 @@
-package src.main.com.javaexercices.sales;
+package sales;
 
 public class Main {
     public static void main(String[] args) {
