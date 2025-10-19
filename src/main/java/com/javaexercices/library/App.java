@@ -17,7 +17,6 @@ public class App{
 
         Biblioteca.fazer_emprestimo(eu, livro1);
         Biblioteca.fazer_emprestimo(eu, livro2);
-
         Biblioteca.fazer_devolucao(eu, livro1);
 
         for(String flag:args){

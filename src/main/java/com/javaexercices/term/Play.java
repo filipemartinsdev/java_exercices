@@ -5,9 +5,10 @@ import java.util.*;
 
 public class Play {
     private final String targetWord;
+    private int points = 100;
 
     public Play() throws IOException, InterruptedException {
-        this.targetWord = WordApiClient.getRandomWord(6).toLowerCase();
+        this.targetWord = WordApiClient.getRandomWord(6).toUpperCase();
     }
 
     public void init(){
@@ -16,12 +17,12 @@ public class Play {
         System.out.println("|  TERMO  |   6 Letras");
         System.out.println("+---------+\n");
 //        System.out.println(targetWord);
-        System.out.println("Start!");
+        System.out.println("Start!\n>> 100 points");
 
         boolean isCorrect = false;
         while(!isCorrect){
             System.out.print("\n> ");
-            String current = scan.next();
+            String current = scan.next().toUpperCase();
             if(current.length()>this.targetWord.length()){
                 System.out.println("too long");
                 continue;
@@ -30,10 +31,22 @@ public class Play {
                 continue;
             }
 
+            for (int i=0; i<this.targetWord.length()*2;i++){
+                System.out.print("-");
+            }
+            System.out.println();
             printWordCompare(this.targetWord, current);
+            for (int i=0; i<this.targetWord.length()*2;i++){
+                System.out.print("-");
+            }
+            System.out.println();
             if (targetWord.equals(current)) {
                 isCorrect = true;
-                System.out.println("Congratulations, you Won!!");
+                System.out.println("Congratulations, you earned "+this.points+" points!");
+            }
+            else{
+                this.points -= 5;
+                System.out.println(">> "+this.points+" points ");
             }
         }
         scan.close();

@@ -5,68 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13f362b2-709b-4c8c-9140-3f95f21b6a30" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaexercices/api/Email.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaexercices/api/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaexercices/api/MyAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaexercices/cocaCola/CocaColaMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaexercices/consultacep/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaexercices/diceGame/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaexercices/enterprise/Enterprise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaexercices/horseRide/Horse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaexercices/horseRide/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaexercices/horseRide/util/Scan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaexercices/library/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaexercices/library/aside.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaexercices/qrcode/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaexercices/qrcode/QRCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaexercices/sales/Loja.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaexercices/sales/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/api/Email.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/api/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/api/MyAPI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/cocaCola/CocaColaMachine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/cocaCola/CocaColaMachine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/consultacep/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/diceGame/Main$Dice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/diceGame/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/diceGame/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/enterprise/Enterprise.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/enterprise/Enterprise.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/horseRide/Horse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/horseRide/Horse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/horseRide/Main$Table$Horse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/horseRide/Main$Table.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/horseRide/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/horseRide/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/horseRide/util/Scan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/horseRide/util/Scan.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/library/App$Biblioteca.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/library/App$Livro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/library/App$Usuario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/library/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/library/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/library/aside.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/qrcode/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/qrcode/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/qrcode/QRCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/qrcode/QRCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/qrcode/qrcode.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/sales/Loja$Produto$ProdutoAlimento.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/sales/Loja$Produto$ProdutoEletronico.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/sales/Loja$Produto$ProdutoFrios.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/sales/Loja$Produto$ProdutoRoupa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/sales/Loja$Produto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/sales/Loja$Venda.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/sales/Loja.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/sales/Loja.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/sales/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/javaexercices/sales/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaexercices/diceGame/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaexercices/diceGame/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaexercices/library/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaexercices/library/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaexercices/term/Play.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaexercices/term/Play.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +47,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.App.executor": "Run",
     "Application.CocaColaMachine.executor": "Run",
+    "Application.Enterprise.executor": "Run",
     "Application.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -111,7 +56,7 @@
     "ToolWindow.Run.ShowToolbar": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/filipe/dev/personal/projects/java/pdvsystem",
+    "last_opened_file_path": "/home/filipe/dev/personal/projects/java/java_exercices",
     "onboarding.tips.debug.path": "/home/filipe/dev/personal/projects/java/java_exercices/src/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",

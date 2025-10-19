@@ -60,17 +60,17 @@ public class Main {
 
             System.out.println("--------------------------------");
 
-            System.out.println("\nRANK----------------------------");
-            Arrays.sort(frequence);
-
-            count=0;
-            index=0;
-
-            System.out.printf("%-10s%-10s\n", "Result", "Occurrences");
-            while(index<frequence.length){
-                System.out.printf("%-10d%-10d\n", count, frequence[index]);
-                index++;
-            }
+//            System.out.println("\nRANK----------------------------");
+//            Arrays.sort(frequence);
+//
+//            count=0;
+//            index=0;
+//
+//            System.out.printf("%-10s%-10s\n", "Result", "Occurrences");
+//            while(index<frequence.length){
+//                System.out.printf("%-10d%-10d\n", count, frequence[index]);
+//                index++;
+//            }
         }
     }
 
