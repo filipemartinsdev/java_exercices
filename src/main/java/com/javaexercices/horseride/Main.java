@@ -1,4 +1,4 @@
-package com.javaexercices.horseRide;
+package com.javaexercices.horseride;
 
 import java.util.ArrayList;
 import java.util.Arrays;

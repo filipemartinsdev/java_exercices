@@ -1,5 +1,4 @@
-package com.javaexercices.diceGame;
-import java.util.Arrays;
+package com.javaexercices.dicegame;
 import java.util.Scanner;
 
 public class Main {

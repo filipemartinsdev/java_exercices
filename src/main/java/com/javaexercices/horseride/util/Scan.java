@@ -1,6 +1,4 @@
-package com.javaexercices.horseRide.util;
-
-import com.sun.source.util.SourcePositions;
+package com.javaexercices.horseride.util;
 
 import java.util.Scanner;
 
