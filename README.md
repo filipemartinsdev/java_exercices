@@ -21,7 +21,7 @@ Um compilado de exercícios desenvolvidos em java.
 
   App CLI para consulta de CNPJ, consumindo WebService da BrasilAPI.
   
-- [Consulta de CEP](./src/main/java/com/javaexercices/consultacep)
+- [Consulta de CEP](q./src/main/java/com/javaexercices/consultacep)
 
   App CLI para consulta de CEP, consumindo a API ViaCep.
    
