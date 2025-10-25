@@ -25,23 +25,35 @@ Um compilado de exercícios desenvolvidos em java.
 
   App CLI para consulta de CEP, consumindo a API ViaCep.
    
-- [API local simples - Cadastro de usuários ](./src/main/java/com/javaexercices/api)
+- [API local simples](./src/main/java/com/javaexercices/api)
+  
+  Cadastro de usuários.
   
 - [Tabuleiro de Xadres CLI - Cavalo](./src/main/java/com/javaexercices/horseride)
 
   Tabuleiro de xadres em CLI, permitindo a movimentação do cavalo.
   
 - [Máquina de ColaCola](./src/main/java/com/javaexercices/cocacola)
+
+  Compra interativa.
   
-- [Livraria - Estudo de POO](./src/main/java/com/javaexercices/library)
+- [Livraria](./src/main/java/com/javaexercices/library)
 
-- [Registro de produtos e vendas - Etudo de POO]
+  Estudo de POO
+  
+- [Registro de produtos e vendas](./src/main/java/com/javaexercices/sales)
 
-- [Calculadora de distribuição gaussiana - Probabilidade em somas de duas jogadas de dados](./src/main/java/com/javaexercices/dicegame)
-  App que demonstra Teorema do Limite Central, com base em milhares de somas de dois resultados de um dado.
+  Etudo de POO
 
+- [Calculadora de distribuição gaussiana](./src/main/java/com/javaexercices/dicegame)
+
+  App que demonstra o Teorema do Limite Central, com base em milhares de somas de dois resultados de um dado.
+
+- [Calculadora de estatística](./src/main/java/com/javaexercices/estatistica)
+  
+   Análise de Variância populacional(V²p), Variância amostral(V²a), Desvio Padrão(Dp) e Coeficiente de variação(Cv).
 
 ### Últimas atualizações
-- 🚀 Novo exercício: Consulta de CNPJ 
+- 🚀 Novos exercícios: Consulta de CNPJ e Calculadora de estatística. 
 
-19/10/2025
+24/10/2025
