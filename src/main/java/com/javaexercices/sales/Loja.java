@@ -22,7 +22,7 @@ public class Loja {
             System.out.println("+------------------------------------------------------+");
 
 
-            System.out.printf("%-30s%-15s%ls-10s%s\n", "| descricao", "| preco uni", "| qnt", "|");
+            System.out.printf("%-30s%-15s%-10s%s\n", "| descricao", "| preco uni", "| qnt", "|");
             System.out.println("+------------------------------------------------------+");
 
             for(Produto item:venda.getProdutos().keySet()){
