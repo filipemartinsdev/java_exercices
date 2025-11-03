@@ -60,4 +60,4 @@ Um compilado de exercícios desenvolvidos em java.
 ### Últimas atualizações
 - 🚀 Novos exercícios: Consulta de CNPJ, Calculadora de estatística e Calculadora probabilística.
 
-24/10/2025
+02/11/2025
