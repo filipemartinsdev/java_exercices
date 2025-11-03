@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="13f362b2-709b-4c8c-9140-3f95f21b6a30" name="Changes" comment="" />
+=======
+    <list default="true" id="13f362b2-709b-4c8c-9140-3f95f21b6a30" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaexercices/probabilidade/Amostra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaexercices/probabilidade/Analizador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaexercices/probabilidade/Chance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaexercices/probabilidade/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+>>>>>>> exercice/probabilidade
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -47,7 +58,11 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "ToolWindow.Run.ShowToolbar": "false",
+<<<<<<< HEAD
     "git-widget-placeholder": "develop",
+=======
+    "git-widget-placeholder": "exercice/probabilidade",
+>>>>>>> exercice/probabilidade
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/filipe/dev/personal/projects/java/library",
     "onboarding.tips.debug.path": "/home/filipe/dev/personal/projects/java/java_exercices/src/Main.java",
