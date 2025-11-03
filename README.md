@@ -58,6 +58,6 @@ Um compilado de exercícios desenvolvidos em java.
     Análise de Variância populacional(V²p), Variância amostral(V²a), Desvio Padrão(Dp) e Coeficiente de variação(Cv).
 
 ### Últimas atualizações
-- 🚀 Novos exercícios: Consulta de CNPJ e Calculadora de estatística. 
+- 🚀 Novos exercícios: Consulta de CNPJ, Calculadora de estatística e Calculadora probabilística.
 
 24/10/2025
