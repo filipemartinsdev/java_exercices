@@ -1,6 +1,4 @@
 package com.javaexercices.probabilidade;
-
-import java.util.List;
 import java.util.Set;
 
 public class Analizador<T> {
